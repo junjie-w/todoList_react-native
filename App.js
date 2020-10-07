@@ -18,7 +18,7 @@ export default function App() {
   }
 
   const submitHandler = (text) => {
-    if (text.length > 3) {
+    if (text.length >= 3) {
       setTodos((prevTodos) => {
         return [
           { text: text, key: Math.random().toString() },
@@ -67,5 +67,4 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: 20,
   },
-
 });
