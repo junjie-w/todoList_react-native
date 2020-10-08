@@ -18,18 +18,18 @@ export default function App() {
   }
 
   const submitHandler = (text) => {
-    if (text.length >= 3) {
-      setTodos((prevTodos) => {
-        return [
-          { text: text, key: Math.random().toString() },
-          ...prevTodos
-        ]
-      })
-    } else {
-      Alert.alert('OOPS!', 'Todos must be oer 3 chars long', [
-        { text: 'Understood', onPress: () => console.log('alert closed') }
-      ]);
-    }
+    //if (text.length >= 3) {
+    setTodos((prevTodos) => {
+      return [
+        { text: text, key: Math.random().toString() },
+        ...prevTodos
+      ]
+    })
+    //} else {
+    //  Alert.alert('OOPS!', 'Todos must be over 3 chars long', [
+    //    { text: 'Understood', onPress: () => console.log('alert closed') }
+    //  ]);
+    //}
   }
 
   return (
