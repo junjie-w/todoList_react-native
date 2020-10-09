@@ -1,5 +1,5 @@
 # todoList_react-native
-A simple todo list mobile app made with react.
+A simple todo-list mobile app made with react.
 <br>
 <br>
 <p align="center">
