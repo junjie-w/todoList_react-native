@@ -2,4 +2,4 @@
 A simple todo list made with react.
 <br>
 <br>
-<img src="https://github.com/junjie-w/todoList_react-native/blob/main/assets/todo-list.jpg?raw=true" width="300px" height="auto">
+<img src="/assets/todoList_screenshot.jpg" width="300px" height="auto">
