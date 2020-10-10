@@ -6,7 +6,7 @@ A simple todo-list mobile app made with react.
 <img src="/assets/todoList_screenshot.jpg" width="300px" height="auto">
 </p>
 <br>
-<br>
 TODO:
 <br>
 Backend and database
+<br>
