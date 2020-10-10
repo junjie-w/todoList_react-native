@@ -7,5 +7,6 @@ A simple todo-list mobile app made with react.
 </p>
 <br>
 <br>
-TODO:
+<bold>TODO:</bold>
+<br>
 Backend and database
